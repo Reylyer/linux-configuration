@@ -1,4 +1,5 @@
-#idle cursor
+#!/bin/bash
+#idle curso;9ur
 unclutter -idle 5 &
 
 # Ensure XDG_Runtime_dir is set
@@ -11,4 +12,8 @@ pipewire -c /etc/pipewire/pipewire.conf  &
 # display
 xrandr --setprovideroutputsource modesetting NVIDIA-0 && xrandr --auto
 
-dbus-launch --sh-syntax --exit-with-session dwm
+while xsetroot -name "8=====D `date` `uptime | sed 's/.*,//'`"
+do
+    sleep 1
+done &
+exec dwm
