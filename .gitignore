@@ -6,5 +6,5 @@
 !.gitconfig
 !.xinitrc
 !.paths
-!.dwm.h
-!.config/kitty/kitty.conf 
+!.config/dwm
+!.config/kitty

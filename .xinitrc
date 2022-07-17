@@ -11,7 +11,11 @@ pipewire -c /etc/pipewire/pipewire.conf  &
 
 # display
 xrandr --setprovideroutputsource modesetting NVIDIA-0 && xrandr --auto
-
+# backgroud
+feh --bg-max .config/dwm/prsk.jpeg 
+# x transparency compositor
+xcompmgr &
+# status bar
 while xsetroot -name "8=====D `date` `uptime | sed 's/.*,//'`"
 do
     sleep 1
