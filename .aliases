@@ -4,7 +4,6 @@ alias spantheon='startx /home/shariyl/.xinitrc_pantheon'
 
 # utils
 alias icat='kitty +kitten icat'
-alias refreshenv='. ~/.bash_profile'
 
 # dwm related
 alias rdwm2='doas emerge =x11-wm/dwm-6.2 --ask n'
